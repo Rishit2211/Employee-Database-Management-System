@@ -1,4 +1,4 @@
--- 3) Write a query using 12 table joins (LEFT JOIN and INNER JOIN).
+-- Write a query using 12 table joins (LEFT JOIN and INNER JOIN).
 
 select ED.EmployeeId ,ED.FirstName+' '+ED.LastName [FullName], ED.JobRole, ED.Department, 
 ED.Experience, EDU.Qualification, EDU.CourseName, EDU.PassingYear,ED.Age, CD.MobileNo, BG.BloodGroupName, C.CasteName, 
@@ -27,7 +27,7 @@ EmpBankDetails BD on ED.BankDetailsId = BD.BankDetailsId
 inner join
 EmpContactDetails CD on ED.ContactId = CD.ContactId
 
--- 7) Question No. 3 using IN, OR, and LIKE operators.
+-- using IN, OR, and LIKE operators.
 
 select ED.EmployeeId ,ED.FirstName+' '+ED.LastName [FullName], ED.JobRole, ED.Department, 
 ED.Experience, EDU.Qualification, EDU.CourseName, EDU.PassingYear,ED.Age, CD.MobileNo, BG.BloodGroupName, C.CasteName, 
